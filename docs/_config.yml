@@ -1,0 +1,34 @@
+title: ControlNet Augmentation
+description: CS 6476 Group 64
+author: "Adrian Cheung, Daniel You, Nathan Prashant Duggal, Richard So"
+
+theme: minima
+
+base_url: https://github.gatech.edu/pages/acheung46/controlnet-augmentation
+repository: acheung46/controlnet-augmentation
+
+# Minima social links
+# github_username: richardso21
+
+# Minima: show excerpts in the frontpage
+show_excerpts: false
+
+minima:
+  date_format: "%m-%d-%Y"
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+# - _pages/about.md
+# - _pages/archive.md
+
+include:
+  - _pages
+
+exclude:
+  - .gitignore
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
